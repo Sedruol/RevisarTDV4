@@ -8,35 +8,21 @@ public class EnemySpawner : MonoBehaviour
     public GameObject enemy1;
     public GameObject enemy2;
     public GameObject enemy3;
-    public float spawnEnemy1;
-    public float spawnEnemy2;
-    public float spawnEnemy3;
+    public float spawnEnemy1 = 2f;
+    public float spawnEnemy2 = 4f;
+    public float spawnEnemy3 = 6f;
     float timerEnemy1;
     float timerEnemy2;
     float timerEnemy3;
-    private void Awake()
+    void SpawnEnemys(GameObject e, float se, ref float te)
     {
-        //InvokeRepeating
-    }
-    void SpawnEnemys(GameObject e1, GameObject e2, GameObject e3, float se1, float se2, float se3)
-    {
-        if(timerEnemy1>= spawnEnemy1)
+        if (te >= se)
         {
-            timerEnemy1 = 0f;
-            SpawnEnemy(e1, se1);
-        }
-        else if (timerEnemy2 >= spawnEnemy2)
-        {
-            timerEnemy2 = 0f;
-            SpawnEnemy(e2, se2);
-        }
-        else if(timerEnemy3 >= spawnEnemy3)
-        {
-            timerEnemy3 = 0f;
-            SpawnEnemy(e3, se3);
+            te = 0f;
+            SpawnEnemy(e);
         }
     }
-    void SpawnEnemy(GameObject e, float se)
+    void SpawnEnemy(GameObject e)
     {
         float tempX = Random.Range(ScalerAndMovBG.minX, ScalerAndMovBG.maxX);
         float tempY = ScalerAndMovBG.maxY + 1.5f;
@@ -47,6 +33,8 @@ public class EnemySpawner : MonoBehaviour
         timerEnemy1 += Time.deltaTime;
         timerEnemy2 += Time.deltaTime;
         timerEnemy3 += Time.deltaTime;
-        SpawnEnemys(enemy1, enemy2, enemy3, spawnEnemy1, spawnEnemy2, spawnEnemy3);
+        SpawnEnemys(enemy1, spawnEnemy1, ref timerEnemy1);
+        SpawnEnemys(enemy2, spawnEnemy2, ref timerEnemy2);
+        SpawnEnemys(enemy3, spawnEnemy3, ref timerEnemy3);
     }
 }
