@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: e779a85dae7685c43960e11769b4ac08
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1479
+        width: 664
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e8da1e10e05cc419fbf94cb4e04760
+      internalID: -1050974038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_1"
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1479
+        width: 662
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d71b6d7d2bbbff34e94a661390966b67
+      internalID: -615030732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_3"
+      rect:
+        serializedVersion: 2
+        x: 1714
+        y: 1464
+        width: 694
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c54e59008189f346a3d3d6660205c00
+      internalID: -1807844307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_9"
+      rect:
+        serializedVersion: 2
+        x: 1719
+        y: 1302
+        width: 689
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9776d474e028694088691223946ff21
+      internalID: 1495381173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_11"
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1318
+        width: 668
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c360f85998182a45ae4e5a5cca01150
+      internalID: 1726704948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_12"
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 1298
+        width: 666
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09d782e70be9884d947d96439ffa748
+      internalID: -957417025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_21"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 1140
+        width: 664
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1edef2b98bf02c4882cd4411f9b50d9
+      internalID: -92681410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_23"
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 1140
+        width: 666
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6f35a6ddb4cd84e8ae04ea11cab21d
+      internalID: -490734136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_28"
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 993
+        width: 664
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05193c8eb8542834c8bbf55ff8051150
+      internalID: -797584712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_31"
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 993
+        width: 666
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dcc15f8b085584eada9cd3435d1880
+      internalID: 1757513617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "painel e bott\xF5es jogo_36"
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 0
+        width: 1400
+        height: 891
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa4c25365eb6fb48953c7f723a081a2
+      internalID: 119856833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "painel e bott\xF5es jogo_13": -1665533293
+      "painel e bott\xF5es jogo_1": -615030732
+      "painel e bott\xF5es jogo_4": -86237141
+      "painel e bott\xF5es jogo_8": -1123543055
+      "painel e bott\xF5es jogo_31": 1757513617
+      "painel e bott\xF5es jogo_18": -1344577886
+      "painel e bott\xF5es jogo_2": 1114684154
+      "painel e bott\xF5es jogo_30": -152399952
+      "painel e bott\xF5es jogo_37": -81538283
+      "painel e bott\xF5es jogo_14": 653386287
+      "painel e bott\xF5es jogo_11": 1726704948
+      "painel e bott\xF5es jogo_15": -211319040
+      "painel e bott\xF5es jogo_21": -92681410
+      "painel e bott\xF5es jogo_32": -1188211483
+      "painel e bott\xF5es jogo_28": -797584712
+      "painel e bott\xF5es jogo_19": 1356626375
+      "painel e bott\xF5es jogo_17": -899056006
+      "painel e bott\xF5es jogo_20": 414976023
+      "painel e bott\xF5es jogo_24": -749593818
+      "painel e bott\xF5es jogo_5": 1976289649
+      "painel e bott\xF5es jogo_7": -135818580
+      "painel e bott\xF5es jogo_10": 1265881328
+      "painel e bott\xF5es jogo_0": -1050974038
+      "painel e bott\xF5es jogo_3": -1807844307
+      "painel e bott\xF5es jogo_25": -44787195
+      "painel e bott\xF5es jogo_9": 1495381173
+      "painel e bott\xF5es jogo_16": -746302708
+      "painel e bott\xF5es jogo_38": -661983714
+      "painel e bott\xF5es jogo_33": 592296954
+      "painel e bott\xF5es jogo_36": 119856833
+      "painel e bott\xF5es jogo_6": 554797408
+      "painel e bott\xF5es jogo_26": -1046661655
+      "painel e bott\xF5es jogo_27": -1458043115
+      "painel e bott\xF5es jogo_23": -490734136
+      "painel e bott\xF5es jogo_22": 1199810102
+      "painel e bott\xF5es jogo_34": 632914603
+      "painel e bott\xF5es jogo_12": -957417025
+      "painel e bott\xF5es jogo_29": 541231640
+      "painel e bott\xF5es jogo_35": 81249550
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -6,9 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/T2/Scenes/MainMenu.unity
-    guid: d00b2fc247db6ac4ea4206004971d4a4
+    path: Assets/EF/Scenes/Menu.unity
+    guid: 58be00a549ae4a346bcda7e8842f8c6a
   - enabled: 1
-    path: Assets/T2/Scenes/GalaxyShipGame.unity
-    guid: b049ec51261be554abb6a684febed52c
+    path: Assets/EF/Scenes/Level 1.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/EF/Scenes/Level 2.unity
+    guid: 38622dbcd74405545932bf3048e6bad8
   m_configObjects: {}
