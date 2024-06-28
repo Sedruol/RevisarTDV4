@@ -16,6 +16,7 @@ public class RibbitPlayer : MonoBehaviour
     private bool isJumping = false;
     public static bool isDie = false;//static para calcular puntaje
     public static bool isWin = false;//static para calcular puntaje
+    float directionX;
     void Awake()
     {
         rbRibbit = GetComponent<Rigidbody2D>();
@@ -72,6 +73,10 @@ public class RibbitPlayer : MonoBehaviour
         {
             GameWin();
         }
+        else if (collision.gameObject.CompareTag("MobilePlatform"))
+        {
+            transform.parent = collision.transform;
+        }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
@@ -79,9 +84,14 @@ public class RibbitPlayer : MonoBehaviour
         {
             animRibbit.SetBool("IsGrounded", checkGround.isGrounded);
         }
+        if (collision.gameObject.CompareTag("MobilePlatform"))
+        {
+            transform.parent = null;
+        }
     }
     private void Update()
     {
+        directionX = Input.GetAxisRaw("Horizontal");
         //PC
         if (Input.GetKeyDown(KeyCode.Space) && checkGround.isGrounded)
         {
@@ -106,7 +116,7 @@ public class RibbitPlayer : MonoBehaviour
     {
         if (!isDie || !isWin)
         {
-            rbRibbit.velocity = new Vector2(speed, rbRibbit.velocity.y);
+            rbRibbit.velocity = new Vector2(directionX*speed, rbRibbit.velocity.y);
             if (isJumping)
             {
                 isJumping = false;

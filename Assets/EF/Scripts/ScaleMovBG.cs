@@ -6,7 +6,8 @@ public class ScaleMovBG : MonoBehaviour
 {
     public static float height;
     public static float width;
-    public float scrollSpeed;
+    public float scrollSpeedX;
+    public float scrollSpeedY;
     MeshRenderer mesh;
     Vector2 offset;
     private void Awake()
@@ -24,7 +25,7 @@ public class ScaleMovBG : MonoBehaviour
     }
     private void Update()
     {
-        offset = new Vector2(Time.time * scrollSpeed, 0);
+        offset = new Vector2(Time.time * scrollSpeedX, Time.time * scrollSpeedY);
         mesh.material.mainTextureOffset = offset;
     }
 }

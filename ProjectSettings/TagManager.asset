@@ -8,6 +8,8 @@ TagManager:
   - Obstacle
   - Objective
   - Goal
+  - MobilePlatform
+  - PlatformFall
   layers:
   - Default
   - TransparentFX
